@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/earlyaccess/mplus1p.css');
+@import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+/*
+white #fafafa
+blue #29ad95
+gray #e6e6e6
+yellow #fffd80
+black #242424*/
+body{
+  font-family: 'Mplus 1p';
+  background-color: #fafafa;
+}
+/*menu*/
+.menu, .menu-list {
+  list-style: none;
+  padding-left: 0;
+}
+.menu-case {
+	float: left;
+	display: inline;
+	text-align: left;
+	margin-right: 20px;
+}
+.menu{
+	bottom: 30px;
+}
+.menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.menu-case:hover .menu-name {
+  color: #29ad95;
+}
+.menu-name{
+	font-size: 20px;
+	font-weight:600;
+  color: #242424;
+  font-family: "Abel";
+}
+
+h1{
+	font-size: 48px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-family: "Abel";
+  color: #777;
+}
+h2{
+	font-size: 36px;
+  font-weight: 600;
+  margin-top: 64px;
+  margin-bottom: 0;
+  font-family: "Abel";
+  color: #29ad95;
+}
+h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-family: "Abel";
+  color: #29ad95;
+}
+h6{
+  font-size: 16px;
+  margin: 0;
+  color: #888;
+  font-weight: 400;
+}
+p{
+	font-weight: 480;
+  font-size: 16px;
+  margin: 0;
+}
+a {
+text-decoration: none;
+}
+small{
+
+}
+.heading{
+  border-bottom: solid 3px #ffe93e;
+  padding: 6px 0;
+}
+
+.works{
+  margin: 0;
+  padding: 0;
+}
+.project{
+  transition: .3s;
+  list-style: none;
+  background-color: #e6e6e6;
+  width: 280px;
+  height: auto;
+}
+.project:hover{
+
+}
+.contents{
+  padding: 20px;
+}
+#main{
+	margin-left: 40px;
+}
+#title{
+
+}
+.dsc{
+  font-size: 16px;
+  font-weight: 400;
+}
+header{
+  margin-left: 40px;
+}
+form{
+  font-family: 'Rounded Mplus 1c';
+}
+
+
+/*Contact Form*/
+.sbmbtn{
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #555;
+  transition: all .2s;
+  width:240px;
+}
+.sbmbtn:hover{
+  background-color: #009d9d;
+}
+#msg{
+  width: 240px;
+  height: 128px;
+  margin-bottom: 15px;
+}
+.textbox{
+  margin-bottom: 15px;
+  width: 240px;
+}
+
+/*http://totora0155.hatenablog.jp/entry/css-only-menubar*/
