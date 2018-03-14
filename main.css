@@ -6,7 +6,8 @@ white #fafafa
 blue #29ad95
 gray #e6e6e6
 yellow #fffd80
-black #242424*/
+black #242424
+dark gray #777*/
 body{
   font-family: 'Mplus 1p';
   background-color: #fafafa;
@@ -67,7 +68,7 @@ h3{
 h6{
   font-size: 16px;
   margin: 0;
-  color: #888;
+  color: #777;
   font-weight: 400;
 }
 p{
@@ -96,8 +97,11 @@ small{
   width: 280px;
   height: auto;
 }
-.project:hover{
-
+.tag{
+  color: #777;
+  margin-left: 10px;
+  background: linear-gradient(transparent 70%, #fffd80 80%);
+  font-size: 16px;
 }
 .contents{
   padding: 20px;
