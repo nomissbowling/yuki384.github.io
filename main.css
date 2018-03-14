@@ -118,8 +118,12 @@ header{
 form{
   font-family: 'Rounded Mplus 1c';
 }
-
-
+.prjtitle{
+  color: #242424;
+}
+.dsc{
+  color: #242424;
+}
 /*Contact Form*/
 .sbmbtn{
   border: none;
