@@ -15,7 +15,7 @@ body{
   margin: 0 1px;
 }
 header{
-  margin: 40px;
+  margin: 40px 80px;
 }
 #top{
   width: 100%;
@@ -121,7 +121,7 @@ small{
   padding: 20px;
 }
 #main{
-	margin-left: 40px;
+	margin: 0 80px 80px 80px;
 }
 #title{
 
