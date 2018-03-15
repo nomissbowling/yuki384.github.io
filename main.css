@@ -12,7 +12,7 @@ body{
   font-family: 'Mplus 1p';
   background-color: #fafafa;
   transform: rotate(0.05deg);
-  margin: 0 1;
+  margin: 0 1px;
 }
 header{
   margin: 40px;
