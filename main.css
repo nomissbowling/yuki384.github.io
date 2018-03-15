@@ -21,11 +21,14 @@ header{
   width: 100%;
   height: 100%;
   background-color: #29ad95;
+  text-align: center;
+  top: 20%;
+}
+.topcntnts{
   color:#fff;
   font-size: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: "Abel";
+  padding-top: 160px;
 }
 /*menu*/
 .menu, .menu-list {
