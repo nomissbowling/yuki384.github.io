@@ -30,6 +30,11 @@ header{
   font-family: "Abel";
   padding-top: 160px;
 }
+.topcntnts img{
+  border-radius: 80px;
+ -moz-border-image: border-radius: 80px;
+ -webkit-border-image: border-radius: 80px;
+}
 /*menu*/
 .menu, .menu-list {
   list-style: none;
