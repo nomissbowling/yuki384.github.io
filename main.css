@@ -35,7 +35,7 @@ header{
  -moz-border-image: border-radius: 80px;
  -webkit-border-image: border-radius: 80px;
 }
-/*menu*/
+
 .menu, .menu-list {
   list-style: none;
   padding-left: 0;
@@ -169,9 +169,10 @@ form{
   margin-bottom: 15px;
   width: 240px;
 }
-@media screen and ( max-width:479px )
-{
-
+@media screen and (min-width:480px) {
+  #nav-open {
+    display:none;
+  }
 }
-
+/*https://saruwakakun.com/html-css/reference/nav-drawer*/
 /*http://totora0155.hatenablog.jp/entry/css-only-menubar*/
