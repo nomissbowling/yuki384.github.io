@@ -17,6 +17,7 @@ body{
 header{
   margin: 40px 80px;
 }
+/*トップ画面*/
 #top{
   width: 100%;
   height: 640px;
@@ -35,7 +36,7 @@ header{
  -moz-border-image: border-radius: 80px;
  -webkit-border-image: border-radius: 80px;
 }
-
+/*メニューバー*/
 .menu, .menu-list {
   list-style: none;
   padding-left: 0;
@@ -64,7 +65,7 @@ header{
   color: #242424;
   font-family: "Abel";
 }
-
+/*見出し、本文*/
 h1{
 	font-size: 48px;
   margin-bottom: 0;
@@ -107,6 +108,7 @@ small{
   padding: 6px 0;
 }
 
+/*作品*/
 .works{
   margin: 0;
   padding: 0;
@@ -118,6 +120,9 @@ small{
   width: 280px;
   height: auto;
 }
+.prjtitle{
+  color: #242424;
+}
 .tag{
   color: #777;
   margin-left: 10px;
@@ -127,26 +132,19 @@ small{
 .contents{
   padding: 20px;
 }
-#main{
-	margin: 0 80px 80px 80px;
-}
-#title{
-
-}
 .dsc{
   font-size: 16px;
   font-weight: 400;
+  color: #242424;
 }
+/*メインコンテンツ*/
+#main{
+	margin: 0 80px 80px 80px;
+}
+/*連絡フォーム*/
 form{
   font-family: 'Rounded Mplus 1c';
 }
-.prjtitle{
-  color: #242424;
-}
-.dsc{
-  color: #242424;
-}
-/*Contact Form*/
 .sbmbtn{
   border: none;
   outline: none;
