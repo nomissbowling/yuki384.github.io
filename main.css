@@ -76,6 +76,7 @@ header{
   padding: 4px 15px;
   text-align: center;
   transition: .3s;
+  cursor: pointer;
 }
 .menu-button:hover{
   border-bottom: solid 2px #ffe93e;
@@ -184,8 +185,13 @@ form{
   width: 240px;
 }
 @media screen and (min-width:480px) {
-  #nav-open {
+  .menu-button {
     display:none;
+  }
+}
+@media screen and (max-width:480px){
+  .menu{
+    display: none;
   }
 }
 /*https://saruwakakun.com/html-css/reference/nav-drawer*/
