@@ -120,6 +120,9 @@ text-decoration: none;
 small{
 
 }
+i{
+  color:#9ad7ac;
+}
 .heading{
   border-bottom: solid 3px #ffe93e;
   padding: 6px 0;
