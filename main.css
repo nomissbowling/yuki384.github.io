@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
-@import url('https://fonts.googleapis.com/earlyaccess/mplus1p.css');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
 @import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
 /*
 white #fafafa
@@ -9,7 +9,7 @@ yellow #fffd80
 black #242424
 dark gray #777*/
 body{
-  font-family: 'Mplus 1p';
+  font-family: 'Noto Sans Japanese';
   background-color: #fafafa;
   transform: rotate(0.05deg);
   margin: 0 1px;
@@ -109,10 +109,11 @@ h6{
   font-size: 16px;
   margin: 0;
   color: #777;
-  font-weight: 400;
+  font-weight: 300;
 }
 p{
   margin-top: 12px;
+  font-weight: 200;
 }
 a {
 text-decoration: none;
