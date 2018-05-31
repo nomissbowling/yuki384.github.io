@@ -77,9 +77,11 @@ header{
   text-align: center;
   transition: .3s;
   cursor: pointer;
+  margin-top: 8px;
 }
 .menu-button:hover{
-  border-bottom: solid 2px #ffe93e;
+  background-color: #29ad95;
+  color: #fff;
 }
 
 /*見出し、本文*/
