@@ -20,7 +20,7 @@ header{
 /*トップ画面*/
 #top{
   width: 100%;
-  height: 640px;
+  height: 480px;
   background-color: #29ad95;
   text-align: center;
   top: 20%;
@@ -99,6 +99,13 @@ header{
   }
   .menu-button {
     display: block;
+  }
+  #top{
+    width: 100%;
+    height: 120px;
+    background-color: #29ad95;
+    text-align: center;
+    top: 20%;
   }
 }
 
