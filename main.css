@@ -35,6 +35,7 @@ header{
   border-radius: 80px;
  -moz-border-image: border-radius: 80px;
  -webkit-border-image: border-radius: 80px;
+ width: 160px;
 }
 
 /*メニューバー*/
@@ -106,6 +107,16 @@ header{
     background-color: #29ad95;
     text-align: center;
     top: 20%;
+  }
+  .topcntnts img{
+    width:80px;
+    border-radius: 60px;
+  }
+  .topcntnts{
+    padding-top: 20px;
+  }
+  .topcntnts p{
+    display: none;
   }
 }
 
