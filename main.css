@@ -87,7 +87,13 @@ header{
   background-color: #29ad95;
   color: #fff;
 }
-@media (min-width: 860px){
+.menu{
+  display: block;
+}
+.menu-button {
+  display: none;
+}
+@media screen and (max-width: 860px){
   .menu{
     display: none;
   }
