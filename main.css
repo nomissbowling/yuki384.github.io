@@ -178,6 +178,7 @@ i{
   background-color: #e6e6e6;
   width: 280px;
   height: auto;
+  flex-wrap:wrap;
 }
 .prjtitle{
   color: #242424;
