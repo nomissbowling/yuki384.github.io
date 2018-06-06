@@ -157,13 +157,14 @@ i{
   flex-wrap:wrap;
   border-radius: 8px;
   box-shadow: 0 2px 3px 0 #bbb;
+  float: left;
 }
 .prjtitle{
   color: #242424;
+  font-size: 24px
 }
 .tag{
   color: #777;
-  margin-left: 10px;
   background: linear-gradient(transparent 70%, #fffd80 80%);
   font-size: 16px;
 }
