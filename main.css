@@ -151,10 +151,12 @@ i{
 .project{
   transition: .3s;
   list-style: none;
-  background-color: #e6e6e6;
+  background-color: #fff;
   width: 280px;
   height: auto;
   flex-wrap:wrap;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px 0 #bbb;
 }
 .prjtitle{
   color: #242424;
