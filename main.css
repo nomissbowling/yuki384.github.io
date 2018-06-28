@@ -183,7 +183,7 @@ i{
   font-weight: 400;
   color: #242424;
 }
-.project img{
+.contents ~ img{
   object-fit: cover;
    width:240px;
    height:240px;
