@@ -89,12 +89,6 @@ header{
   background-color: #29ad95;
   color: #fff;
 }
-.menu{
-  display: block;
-}
-.menu-button {
-  display: none;
-}
 
 
 /*見出し、本文*/
@@ -260,6 +254,8 @@ form{
 @media screen and (max-width: 860px) {
   .menu{
     display: none;
+    background-color: #fff;
+    padding: 12px;
   }
   .menu-button {
     display: block;
@@ -285,5 +281,12 @@ form{
   }
   header {
     margin: 20px 40px;
+  }
+  #mnbtn:checked ~ .menu{
+    display: block;
+  }
+  .menu-case{
+    float: none;
+    background-color: #fff;
   }
 }
