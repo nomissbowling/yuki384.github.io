@@ -36,6 +36,7 @@ header{
  -moz-border-image: border-radius: 80px;
  -webkit-border-image: border-radius: 80px;
  width: 160px;
+ border: solid #fff;
 }
 
 /*メニューバー*/
@@ -181,6 +182,12 @@ i{
   font-size: 16px;
   font-weight: 400;
   color: #242424;
+}
+.project img{
+  object-fit: cover;
+   width:240px;
+   height:240px;
+   object-position: 0 0;
 }
 /*timeline https://codepen.io/P233/pen/lGewF*/
 #timeline {
